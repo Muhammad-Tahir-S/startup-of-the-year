@@ -1,0 +1,35 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  color: #9a2727;
+  background: url(header.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+#line{
+  border-color: #9a2727;
+  border-width: 5px;
+  border-radius:10px;
+  max-width: 150px;
+  margin-top: 19px;
+}
+
+.buffer{
+  height: 10rem;
+}
+
+.btn-danger{
+  font-weight: 700;
+  border-radius: 300px;
+  
+}
+.btn-danger:hover{
+  background-color: #9a2727;
+  transform: scale(1.1);
+}
+.btn-xl{
+  padding: 1rem 2rem;
+}
